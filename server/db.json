@@ -1,0 +1,1058 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "title": "Пицца Маргарита",
+      "description": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "price": 12.99,
+      "imageUrl": "https://example.com/images/pizza-margarita.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Суши Филадельфия",
+      "description": "Роллы с лососем, сливочным сыром и авокадо.",
+      "price": 18.5,
+      "imageUrl": "https://example.com/images/sushi-philadelphia.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Стейк Рибай",
+      "description": "Нежный стейк из мраморной говядины с травяной корочкой.",
+      "price": 24.99,
+      "imageUrl": "https://example.com/images/ribeye-steak.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Паста Карбонара",
+      "description": "Итальянская паста с беконом, яйцами и пармезаном.",
+      "price": 14.75,
+      "imageUrl": "https://example.com/images/pasta-carbonara.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Бургер Двойной Бифштекс",
+      "description": "Бургер с двойной говядиной, сыром чеддер и специальным соусом.",
+      "price": 16.99,
+      "imageUrl": "https://example.com/images/double-beef-burger.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Тайский Том Ям",
+      "description": "Острый суп с креветками, грибами и кокосовым молоком.",
+      "price": 15.25,
+      "imageUrl": "https://example.com/images/tom-yam-soup.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Цезарь с Курицей",
+      "description": "Салат с курицей, салатными листьями, крутыми яйцами и соусом Цезарь.",
+      "price": 11.5,
+      "imageUrl": "https://example.com/images/caesar-salad.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Фалафель",
+      "description": "Хрустящие шарики из нута с соусом тахини.",
+      "price": 9.99,
+      "imageUrl": "https://example.com/images/falafel.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Тако с Говядиной",
+      "description": "Мексиканские тако с говяжьим фаршем, сальсой и авокадо.",
+      "price": 13.75,
+      "imageUrl": "https://example.com/images/beef-tacos.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Шашлык из Баранины",
+      "description": "Маринованный шашлык из баранины с зеленью и специями.",
+      "price": 19.99,
+      "imageUrl": "https://example.com/images/lamb-shashlik.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Панакота",
+      "description": "Десерт из сливочного крема с фруктовым соусом.",
+      "price": 7.5,
+      "imageUrl": "https://example.com/images/panacotta.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Чизкейк",
+      "description": "Классический десерт с сырной начинкой и ягодным соусом.",
+      "price": 8.99,
+      "imageUrl": "https://example.com/images/cheesecake.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Салат Греческий",
+      "description": "Свежий салат с огурцами, помидорами, маслинами и фетой.",
+      "price": 10.25,
+      "imageUrl": "https://example.com/images/greek-salad.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Креветки во Фритюре",
+      "description": "Хрустящие креветки в панировке с соусом сладкий чили.",
+      "price": 17.99,
+      "imageUrl": "https://example.com/images/shrimp-tempura.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Гамбургер Вегетарианский",
+      "description": "Бургер с котлетой из чечевицы и овощей.",
+      "price": 12.5,
+      "imageUrl": "https://example.com/images/veggie-burger.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Лазанья",
+      "description": "Итальянская запеканка с мясным фаршем и бешамелью.",
+      "price": 15.99,
+      "imageUrl": "https://example.com/images/lasagna.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Рамен с Свининой",
+      "description": "Японский суп с лапшой, свининой и яйцом.",
+      "price": 14.75,
+      "imageUrl": "https://example.com/images/ramen-pork.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Куриные Наггетсы",
+      "description": "Золотистые наггетсы из куриного филе с соусом барбекю.",
+      "price": 11.99,
+      "imageUrl": "https://example.com/images/chicken-nuggets.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Пирог с Яблоками",
+      "description": "Домашний пирог с ароматными яблоками и корицей.",
+      "price": 9.5,
+      "imageUrl": "https://example.com/images/apple-pie.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Тосты с Авокадо",
+      "description": "Хрустящие тосты с пюре из авокадо и яйцом пашот.",
+      "price": 10.99,
+      "imageUrl": "https://example.com/images/avocado-toast.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Картофель Фри",
+      "description": "Золотистый картофель фри с солью и специями.",
+      "price": 6.99,
+      "imageUrl": "https://example.com/images/french-fries.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Мисо Суп",
+      "description": "Традиционный японский суп с пастой мисо и тофу.",
+      "price": 8.75,
+      "imageUrl": "https://example.com/images/miso-soup.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Капучино",
+      "description": "Кофейный напиток с молочной пенкой.",
+      "price": 4.5,
+      "imageUrl": "https://example.com/images/cappuccino.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Смузи с Ягодами",
+      "description": "Освежающий напиток из смеси ягод и йогурта.",
+      "price": 7.99,
+      "imageUrl": "https://example.com/images/berry-smoothie.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Молочный Коктейль",
+      "description": "Сладкий коктейль с мороженым и шоколадом.",
+      "price": 6.5,
+      "imageUrl": "https://example.com/images/milkshake.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Тартар из Лосося",
+      "description": "Сырое филе лосося с оливковым маслом и каперсами.",
+      "price": 21.99,
+      "imageUrl": "https://example.com/images/salmon-tartare.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Пельмени",
+      "description": "Домашние пельмени с говядиной и свининой.",
+      "price": 13.75,
+      "imageUrl": "https://example.com/images/pelmeni.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Куриный Шашлык",
+      "description": "Маринованные куриные кусочки на гриле.",
+      "price": 16.99,
+      "imageUrl": "https://example.com/images/chicken-shashlik.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Сэндвич с Индейкой",
+      "description": "Сэндвич с индейкой, салатом и острым соусом.",
+      "price": 12.25,
+      "imageUrl": "https://example.com/images/turkey-sandwich.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Курица Тандури",
+      "description": "Курица, маринованная в специях и запеченная в тандуре.",
+      "price": 18.99,
+      "imageUrl": "https://example.com/images/tandoori-chicken.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Овощное Рататуй",
+      "description": "Французское блюдо из тушеных овощей.",
+      "price": 11.5,
+      "imageUrl": "https://example.com/images/ratatouille.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Тирамису",
+      "description": "Итальянский десерт с кофе и маскарпоне.",
+      "price": 9.99,
+      "imageUrl": "https://example.com/images/tiramisu.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Салат с Тунцом",
+      "description": "Салат с консервированным тунцом, яйцами и овощами.",
+      "price": 10.75,
+      "imageUrl": "https://example.com/images/tuna-salad.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Куриный Суп",
+      "description": "Домашний суп с курицей, морковью и лапшой.",
+      "price": 9.25,
+      "imageUrl": "https://example.com/images/chicken-soup.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Паста Песто",
+      "description": "Спагетти с соусом песто из базилика и кедровых орехов.",
+      "price": 13.99,
+      "imageUrl": "https://example.com/images/pasta-pesto.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Капкейки",
+      "description": "Миниатюрные кексы с кремовой начинкой.",
+      "price": 8.5,
+      "imageUrl": "https://example.com/images/cupcakes.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Тофу с Овощами",
+      "description": "Жареный тофу с овощами в соевом соусе.",
+      "price": 12.99,
+      "imageUrl": "https://example.com/images/tofu-vegetables.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Крабовый Салат",
+      "description": "Салат с крабовыми палочками, кукурузой и майонезом.",
+      "price": 11.25,
+      "imageUrl": "https://example.com/images/crab-salad.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Макаруны",
+      "description": "Французские миндальные печенья с разнообразными начинками.",
+      "price": 14.99,
+      "imageUrl": "https://example.com/images/macarons.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Свиные Ребрышки",
+      "description": "Запеченные ребрышки с барбекю соусом.",
+      "price": 22.5,
+      "imageUrl": "https://example.com/images/pork-ribs.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Окрошка",
+      "description": "Холодный суп на кефире с овощами и колбасой.",
+      "price": 10.99,
+      "imageUrl": "https://example.com/images/okroshka.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Блины с Икрой",
+      "description": "Деликатесные блины с красной икрой и сметаной.",
+      "price": 25.99,
+      "imageUrl": "https://example.com/images/blini-caviar.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Карпаччо из Говядины",
+      "description": "Тонкие ломтики сырой говядины с оливковым маслом и рукколой.",
+      "price": 19.99,
+      "imageUrl": "https://example.com/images/beef-carpaccio.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Пудинг",
+      "description": "Английский пудинг с заварным кремом.",
+      "price": 8.75,
+      "imageUrl": "https://example.com/images/pudding.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Салат Цезарь с Креветками",
+      "description": "Салат с креветками, салатными листьями и соусом Цезарь.",
+      "price": 14.5,
+      "imageUrl": "https://example.com/images/shrimp-caesar.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Фруктовый Салат",
+      "description": "Свежий микс из сезонных фруктов.",
+      "price": 9.99,
+      "imageUrl": "https://example.com/images/fruit-salad.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Тосты с Рикоттой",
+      "description": "Тосты с рикоттой, медом и орехами.",
+      "price": 11.25,
+      "imageUrl": "https://example.com/images/ricotta-toast.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Крем-Суп из Грибов",
+      "description": "Нежный суп из лесных грибов с сливками.",
+      "price": 12.99,
+      "imageUrl": "https://example.com/images/mushroom-cream-soup.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Буррито с Курицей",
+      "description": "Мексиканский буррито с курицей, фасолью и соусом гуакамоле.",
+      "price": 15.75,
+      "imageUrl": "https://example.com/images/chicken-burrito.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Шоколадный Мусс",
+      "description": "Нежный десерт из темного шоколада.",
+      "price": 8.99,
+      "imageUrl": "https://example.com/images/chocolate-mousse.jpg"
+    }
+  ],
+  "clothes": [
+    {
+      "id": 1,
+      "title": "Классический Пиджак",
+      "description": "Элегантный пиджак из хлопка с двубортной застежкой.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 2,
+      "title": "Джинсы Skinny",
+      "description": "Узкие джинсы с высокой талией и эластичной тканью.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1587936/pexels-photo-1587936.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 3,
+      "title": "Платье Миди",
+      "description": "Платье средней длины с цветочным принтом и поясом.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 4,
+      "title": "Футболка Oversize",
+      "description": "Свободная футболка из мягкого хлопка с круглым вырезом.",
+      "price": 24.99,
+      "imageUrl": "https://images.pexels.com/photos/267308/pexels-photo-267308.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 5,
+      "title": "Куртка Бомбер",
+      "description": "Стеганая куртка с эластичными манжетами и воротником.",
+      "price": 79.99,
+      "imageUrl": "https://images.pexels.com/photos/1594996/pexels-photo-1594996.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 6,
+      "title": "Юбка А-Лайн",
+      "description": "Юбка в форме трапеции из шерсти с молнией сзади.",
+      "price": 54.99,
+      "imageUrl": "https://images.pexels.com/photos/934057/pexels-photo-934057.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 7,
+      "title": "Свитер Оверсайз",
+      "description": "Теплый свитер свободного кроя с объемными рукавами.",
+      "price": 59.99,
+      "imageUrl": "https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 8,
+      "title": "Шорты Карго",
+      "description": "Шорты с множеством карманов и регулируемым ремнем.",
+      "price": 39.99,
+      "imageUrl": "https://images.pexels.com/photos/1078975/pexels-photo-1078975.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 9,
+      "title": "Кожаные Брюки",
+      "description": "Облегающие брюки из искусственной кожи с эластичной тканью.",
+      "price": 99.99,
+      "imageUrl": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 10,
+      "title": "Пальто Шерстяное",
+      "description": "Длинное пальто из натуральной шерсти с поясом.",
+      "price": 149.99,
+      "imageUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 11,
+      "title": "Брюки Чинос",
+      "description": "Классические брюки из хлопка с прямым кроем.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/157675/fashion-men-s-clothing-style-157675.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 12,
+      "title": "Леггинсы Спортивные",
+      "description": "Леггинсы с высокой талией и влагоотводящей тканью.",
+      "price": 34.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 13,
+      "title": "Рубашка В Шашечку",
+      "description": "Классическая рубашка с клетчатым узором и длинными рукавами.",
+      "price": 39.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 14,
+      "title": "Пуховик Легкий",
+      "description": "Компактный пуховик с капюшоном и водоотталкивающей тканью.",
+      "price": 119.99,
+      "imageUrl": "https://images.pexels.com/photos/1594996/pexels-photo-1594996.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 15,
+      "title": "Костюм Спортивный",
+      "description": "Комплект из толстовки и брюк для тренировок.",
+      "price": 74.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 16,
+      "title": "Жилет Утепленный",
+      "description": "Жилет из пуха с карманами и компактной упаковкой.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 17,
+      "title": "Купальник Раздельный",
+      "description": "Купальник с треугольным верхом и классическими трусиками.",
+      "price": 44.99,
+      "imageUrl": "https://images.pexels.com/photos/167168/pexels-photo-167168.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 18,
+      "title": "Блузка Шелковая",
+      "description": "Блузка из натурального шелка с завязками на рукавах.",
+      "price": 59.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 19,
+      "title": "Тренч Классический",
+      "description": "Двубортный тренч из плотного хлопка с поясом.",
+      "price": 129.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 20,
+      "title": "Худи с Капюшоном",
+      "description": "Удобное худи с карманом-кенгуру и мягкой подкладкой.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 21,
+      "title": "Кимоно Длинное",
+      "description": "Легкое кимоно с цветочным принтом и поясом.",
+      "price": 64.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 22,
+      "title": "Кроссовки Спортивные",
+      "description": "Кроссовки с амортизацией и вентилируемой сеткой.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/934057/pexels-photo-934057.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 23,
+      "title": "Кардиган Теплый",
+      "description": "Кардиган из шерсти с крупными пуговицами.",
+      "price": 79.99,
+      "imageUrl": "https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 24,
+      "title": "Кепка Бейсболка",
+      "description": "Классическая бейсболка с регулируемой застежкой.",
+      "price": 19.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 25,
+      "title": "Комбинезон Джинсовый",
+      "description": "Джинсовый комбинезон с короткими рукавами и поясом.",
+      "price": 99.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 26,
+      "title": "Платье Вязаное",
+      "description": "Платье из трикотажа с объемными рукавами.",
+      "price": 74.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 27,
+      "title": "Джоггеры Спортивные",
+      "description": "Спортивные брюки с резинкой на талии и манжетами.",
+      "price": 44.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 28,
+      "title": "Куртка Парка",
+      "description": "Зимняя парка с меховой подкладкой и капюшоном.",
+      "price": 159.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 29,
+      "title": "Топ Кроп",
+      "description": "Короткий топ из эластичной ткани с широкими лямками.",
+      "price": 29.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 30,
+      "title": "Пальто Камель",
+      "description": "Классическое пальто в оттенке верблюжьего цвета.",
+      "price": 139.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 31,
+      "title": "Кофта с Воротником",
+      "description": "Трикотажная кофта с воротником-стойкой и молнией.",
+      "price": 59.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 32,
+      "title": "Шапка Вязаная",
+      "description": "Теплая вязаная шапка с помпоном.",
+      "price": 24.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 33,
+      "title": "Юбка Плиссированная",
+      "description": "Юбка со складками и эластичным поясом.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/934057/pexels-photo-934057.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 34,
+      "title": "Куртка Деним",
+      "description": "Классическая джинсовая куртка с металлическими пуговицами.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 35,
+      "title": "Шарф Шерстяной",
+      "description": "Длинный шерстяной шарф с геометрическим узором.",
+      "price": 34.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 36,
+      "title": "Брюки Джоггеры",
+      "description": "Комфортные брюки с эластичной тканью и манжетами.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 37,
+      "title": "Платье Бандажное",
+      "description": "Платье облегающего кроя из эластичной ткани.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 38,
+      "title": "Рубашка Льняная",
+      "description": "Легкая рубашка из натурального льна с короткими рукавами.",
+      "price": 44.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 39,
+      "title": "Костюм Тройка",
+      "description": "Классический костюм из пиджака, жилета и брюк.",
+      "price": 199.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 40,
+      "title": "Туфли Лоферы",
+      "description": "Классические туфли без шнуровки из натуральной кожи.",
+      "price": 119.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 41,
+      "title": "Куртка Косуха",
+      "description": "Кожаная куртка с молнией наискосок и металлическими заклепками.",
+      "price": 179.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 42,
+      "title": "Платье Макси",
+      "description": "Длинное платье с разрезом и тонкими бретелями.",
+      "price": 79.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 43,
+      "title": "Сумка Кроссбоди",
+      "description": "Компактная сумка через плечо из экокожи.",
+      "price": 59.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 44,
+      "title": "Перчатки Зимние",
+      "description": "Теплые перчатки из натуральной кожи с подкладкой.",
+      "price": 39.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 45,
+      "title": "Платье Футляр",
+      "description": "Платье приталенного кроя из эластичной ткани.",
+      "price": 64.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 46,
+      "title": "Рубашка Оксфорд",
+      "description": "Классическая рубашка из оксфордской ткани с длинными рукавами.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 47,
+      "title": "Кеды Классические",
+      "description": "Универсальные кеды из хлопка с резиновой подошвой.",
+      "price": 59.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 48,
+      "title": "Платок Шелковый",
+      "description": "Платок из натурального шелка с принтом в горошек.",
+      "price": 29.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 49,
+      "title": "Куртка Укороченная",
+      "description": "Короткая куртка с капюшоном и молнией спереди.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 50,
+      "title": "Юбка Миди",
+      "description": "Юбка средней длины с запахом и поясом.",
+      "price": 54.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 1,
+      "title": "Смартфон Samsung Galaxy S23",
+      "description": "Флагманский смартфон с AMOLED-экраном и мощным процессором.",
+      "price": 899.99,
+      "imageUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 2,
+      "title": "Наушники Apple AirPods Pro",
+      "description": "Беспроводные наушники с активным шумоподавлением.",
+      "price": 249.99,
+      "imageUrl": "https://images.pexels.com/photos/1092679/pexels-photo-1092679.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 3,
+      "title": "Ноутбук Dell XPS 13",
+      "description": "Ультрабук с экраном InfinityEdge и процессором Intel Core i7.",
+      "price": 1199.99,
+      "imageUrl": "https://images.pexels.com/photos/891837/pexels-photo-891837.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 4,
+      "title": "Умные часы Apple Watch Series 8",
+      "description": "Часы с функцией мониторинга здоровья и GPS.",
+      "price": 399.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 5,
+      "title": "Планшет iPad Air",
+      "description": "Легкий планшет с дисплеем Retina и поддержкой Apple Pencil.",
+      "price": 599.99,
+      "imageUrl": "https://images.pexels.com/photos/934057/pexels-photo-934057.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 6,
+      "title": "Игровая консоль PlayStation 5",
+      "description": "Мощная игровая консоль нового поколения.",
+      "price": 499.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 7,
+      "title": "Камера Sony Alpha A7 III",
+      "description": "Зеркальная камера с полнокадровым сенсором.",
+      "price": 1999.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 8,
+      "title": "Электронная книга Kindle Paperwhite",
+      "description": "Читалка с высоким разрешением экрана и встроенной подсветкой.",
+      "price": 129.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 9,
+      "title": "Проектор Xiaomi Mi Smart",
+      "description": "Компактный проектор для домашнего кинотеатра.",
+      "price": 449.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 10,
+      "title": "Робот-пылесос iRobot Roomba",
+      "description": "Автоматический пылесос с функцией самоочистки.",
+      "price": 349.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 11,
+      "title": "Умная колонка Amazon Echo Dot",
+      "description": "Колонка с голосовым помощником Alexa.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 12,
+      "title": "Фитнес-браслет Xiaomi Mi Band 7",
+      "description": "Трекер активности с мониторингом сердечного ритма.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 13,
+      "title": "Монитор LG UltraFine 4K",
+      "description": "Монитор с высоким разрешением и цветопередачей.",
+      "price": 699.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 14,
+      "title": "Игровая мышь Logitech G502",
+      "description": "Мышь с программируемыми кнопками и RGB-подсветкой.",
+      "price": 79.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 15,
+      "title": "Клавиатура Razer BlackWidow",
+      "description": "Механическая клавиатура с тактильными переключателями.",
+      "price": 129.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 16,
+      "title": "Дрон DJI Mavic Air 2",
+      "description": "Компактный дрон с камерой 4K и автопилотом.",
+      "price": 799.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 17,
+      "title": "Внешний аккумулятор Anker PowerCore",
+      "description": "Портативный зарядный блок на 20000mAh.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 18,
+      "title": "Система умного дома Philips Hue",
+      "description": "Умное освещение с управлением через приложение.",
+      "price": 199.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 19,
+      "title": "Wi-Fi маршрутизатор TP-Link Archer AX6000",
+      "description": "Роутер с поддержкой Wi-Fi 6 и скоростью до 6000 Мбит/с.",
+      "price": 299.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 20,
+      "title": "USB-накопитель SanDisk Ultra 128GB",
+      "description": "Высокоскоростной флеш-накопитель USB 3.0.",
+      "price": 24.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 21,
+      "title": "Принтер Canon PIXMA TS3350",
+      "description": "Компактный принтер с поддержкой мобильной печати.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 22,
+      "title": "Геймпад Xbox Wireless Controller",
+      "description": "Беспроводной контроллер с эргономичным дизайном.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 23,
+      "title": "SSD накопитель Samsung 970 EVO Plus",
+      "description": "Накопитель NVMe с объемом 1TB и скоростью чтения до 3500 МБ/с.",
+      "price": 149.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 24,
+      "title": "Смарт-часы Garmin Venu 2",
+      "description": "Часы с функциями тренировок и GPS.",
+      "price": 399.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 25,
+      "title": "Игровое кресло Secretlab Omega",
+      "description": "Кресло с поддержкой спины и регулировкой высоты.",
+      "price": 449.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 26,
+      "title": "Bluetooth-гарнитура SteelSeries Arctis 7",
+      "description": "Беспроводная гарнитура с качественным звуком.",
+      "price": 149.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 27,
+      "title": "Портативная колонка JBL Flip 6",
+      "description": "Колонка с водонепроницаемым корпусом и мощным звуком.",
+      "price": 119.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 28,
+      "title": "Видеокарта NVIDIA GeForce RTX 4070",
+      "description": "Графическая карта с поддержкой трассировки лучей.",
+      "price": 599.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 29,
+      "title": "Микрофон Blue Yeti",
+      "description": "Студийный микрофон для стримов и подкастов.",
+      "price": 129.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 30,
+      "title": "Кабель HDMI 2.1",
+      "description": "Кабель для передачи видео и аудио в высоком качестве.",
+      "price": 19.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 31,
+      "title": "Игровая видеокамера Logitech C920",
+      "description": "Камера для стримов с разрешением Full HD.",
+      "price": 89.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 32,
+      "title": "Портативная игровая консоль Nintendo Switch Lite",
+      "description": "Компактная версия консоли для игр на ходу.",
+      "price": 249.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 33,
+      "title": "Аккумуляторный шуруповерт Dewalt DCD771C2",
+      "description": "Шуруповерт с батареей на 20V и комплектом насадок.",
+      "price": 199.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 34,
+      "title": "Сетевая карта Wi-Fi TP-Link Archer TX50E",
+      "description": "PCIe адаптер с поддержкой Wi-Fi 6.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 35,
+      "title": "Умная лампа Yeelight Smart LED",
+      "description": "Лампа с регулировкой яркости и цветовой температуры.",
+      "price": 29.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 36,
+      "title": "Комплект умных розеток Sonoff Basic",
+      "description": "Розетки с управлением через Wi-Fi и таймером.",
+      "price": 39.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 37,
+      "title": "Колонка с сабвуфером Bose SoundLink",
+      "description": "Колонка с глубокими басами и Bluetooth.",
+      "price": 299.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 38,
+      "title": "Экшн-камера GoPro HERO 11",
+      "description": "Камера для экстремальных съемок с водонепроницаемым корпусом.",
+      "price": 449.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 39,
+      "title": "Игровая клавиатура Corsair K95 RGB",
+      "description": "Механическая клавиатура с RGB-подсветкой.",
+      "price": 159.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 40,
+      "title": "Монопод для селфи Ulanzi MT-18",
+      "description": "Телескопический монопод с держателем для телефона.",
+      "price": 19.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 41,
+      "title": "Портативный SSD Samsung T7",
+      "description": "Накопитель с интерфейсом USB-C и объемом 1TB.",
+      "price": 149.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 42,
+      "title": "Игровая гарнитура HyperX Cloud II",
+      "description": "Гарнитура с мягкими амбушюрами и качественным звуком.",
+      "price": 99.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 43,
+      "title": "Умный замок August Smart Lock",
+      "description": "Замок с управлением через смартфон и автономным питанием.",
+      "price": 229.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 44,
+      "title": "Портативный проектор Nebula Capsule",
+      "description": "Миниатюрный проектор с Android TV.",
+      "price": 399.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 45,
+      "title": "Смарт-колонка Google Nest Mini",
+      "description": "Колонка с голосовым помощником Google Assistant.",
+      "price": 49.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 46,
+      "title": "Электронные весы Xiaomi Mi Smart Scale",
+      "description": "Весы с синхронизацией данных со смартфоном.",
+      "price": 29.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 47,
+      "title": "Камера видеонаблюдения Yi Home Camera",
+      "description": "Wi-Fi камера с ночным видением и обнаружением движения.",
+      "price": 39.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 48,
+      "title": "Игровая мышь Razer DeathAdder V3",
+      "description": "Мышь с оптическим сенсором и RGB-подсветкой.",
+      "price": 69.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 49,
+      "title": "Портативный монитор ASUS ZenScreen",
+      "description": "Монитор с диагональю 15.6 дюймов и USB-C подключением.",
+      "price": 249.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 50,
+      "title": "Умный термометр Netatmo Smart Thermostat",
+      "description": "Термометр с управлением через приложение и экономией энергии.",
+      "price": 179.99,
+      "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ]
+}
