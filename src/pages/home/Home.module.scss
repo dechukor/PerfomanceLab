@@ -1,0 +1,7 @@
+@use "../../styles/main.scss" as styles;
+
+.homeContainer {
+  @include styles.flex-centered;
+  gap: 1rem;
+  // background-color: burlywood;
+}

@@ -1,0 +1,6 @@
+@use "../../styles/main.scss" as styles;
+
+.foodsContainer {
+  @include styles.flex-centered;
+  gap: 1rem;
+}

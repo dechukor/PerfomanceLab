@@ -1,0 +1,8 @@
+@use "../../styles/main.scss" as styles;
+
+.mainContainer {
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: styles.$color-white;
+  flex-grow: 1;
+}

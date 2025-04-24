@@ -1,4 +1,24 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "type": "foods",
+      "title": "Еда",
+      "description": "Категория товаров 'Еда'"
+    },
+    {
+      "id": 2,
+      "type": "clothes",
+      "title": "Одежда",
+      "description": "Категория товаров 'Одежда'"
+    },
+    {
+      "id": 3,
+      "type": "electronics",
+      "title": "Электроника",
+      "description": "Категория товаров 'Электроника'"
+    }
+  ],
   "foods": [
     {
       "id": 1,

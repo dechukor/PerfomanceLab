@@ -1,0 +1,5 @@
+@use "../../styles/main.scss" as styles;
+
+.buttonContainer {
+  @include styles.flex-centered;
+}
