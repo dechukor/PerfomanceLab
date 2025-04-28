@@ -1,3 +1,5 @@
+// -----colors-----
+
 $color-white: white;
 $color-orange: #f13c20;
 $color-blue: #4056a1;
@@ -5,7 +7,6 @@ $color-light-gray: #c5cbe3;
 $color-light-brown: #464438;
 $color-gold: #d79922;
 
-// -----colors-----
 $base-bg-color: $color-light-gray;
 $header-color: $color-blue;
 $button-color: $color-white;
@@ -16,4 +17,9 @@ $header-text-color: $color-gold;
 //-----fonts-----
 
 $base-font-size: 14px;
-$header-font-size: 2em;
+$header-font-size: 2rem;
+
+//-----sizes-----
+
+$width-product-card: 18rem;
+$height-product-card: 30rem;

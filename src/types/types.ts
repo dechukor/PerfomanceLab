@@ -5,3 +5,5 @@ export type Product = {
   price: number;
   imageUrl: string;
 };
+
+export type Products = Product[];
