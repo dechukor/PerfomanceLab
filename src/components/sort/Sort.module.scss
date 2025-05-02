@@ -1,0 +1,17 @@
+@use "../../styles/main.scss" as styles;
+
+.sortContainer {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.5rem;
+  border: 2px solid styles.$color-light-gray;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.buttonApply {
+  background-color: styles.$color-orange;
+  color: styles.$color-white;
+}

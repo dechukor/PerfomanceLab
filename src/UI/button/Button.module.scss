@@ -2,4 +2,27 @@
 
 .buttonContainer {
   @include styles.flex-centered;
+  border-radius: 0.5rem;
+  border: 1px solid styles.$button-hover-color;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: styles.$button-color;
+  transition: background-color 0.25s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: styles.$button-hover-color;
+  }
+  &:focus,
+  :focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  &:disabled {
+    color: red;
+    &:hover {
+      background-color: transparent;
+    }
+  }
 }

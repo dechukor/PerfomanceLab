@@ -1,4 +1,4 @@
-@use "../../styles/main.scss" as styles;
+@use "../../../styles/main.scss" as styles;
 
 .foodsContainer {
   @include styles.flex-centered;

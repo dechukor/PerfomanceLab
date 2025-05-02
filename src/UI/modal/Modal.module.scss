@@ -1,0 +1,13 @@
+@use "../../styles/main.scss" as styles;
+
+.substrate {
+  @include styles.flex-centered;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgb(197, 203, 227, 50%);
+
+  width: 100vw;
+  height: 100vh;
+}

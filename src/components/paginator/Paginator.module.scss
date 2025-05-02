@@ -1,0 +1,11 @@
+@use "../../styles/main.scss" as styles;
+
+.paginatorContainer {
+  @include styles.flex-centered;
+  gap: 0.3rem;
+}
+
+.activePage {
+  background-color: styles.$color-orange;
+  color: styles.$color-white;
+}

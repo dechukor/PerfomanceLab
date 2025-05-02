@@ -16,6 +16,7 @@
   height: 70%;
   border-radius: inherit;
   overflow: hidden;
+  border: 1px solid styles.$color-light-gray;
 }
 
 .image {
@@ -40,6 +41,9 @@
   height: 10%;
   padding: 0.5rem;
   font-size: 1.2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .buttonAddInCart {

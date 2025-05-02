@@ -3,7 +3,7 @@ import styles from "./ProductCard.module.scss";
 import { Product } from "../../types/types";
 import { Button } from "../../UI";
 import { PRICE_UNIT } from "../../constants/price-unit";
-import noImage from "../../../public/images/plugs/noImage.jpg";
+import noImage from "/images/plugs/noImage.png?url";
 
 interface ProductCardProps {
   product: Product;

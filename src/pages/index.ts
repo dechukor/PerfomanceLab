@@ -1,3 +1,4 @@
 export * from "./header/Header";
 export * from "./main/Main";
-export * from "./foods/Foods";
+export * from "./category-page/CategoryPage";
+export * from "./categories/SelectCategory";
