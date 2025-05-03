@@ -1,0 +1,11 @@
+@use "../../styles/main.scss" as styles;
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+
+  max-height: 100%;
+  gap: 0.5rem;
+  padding: 1rem;
+  overflow: auto;
+}

@@ -1,18 +1,17 @@
 import { FC } from "react";
-import styles from "./ProductCard.module.scss";
+import styles from "./CartCard.module.scss";
 import { Product } from "../../types/types";
 import { Button } from "../../UI";
 import { PRICE_UNIT } from "../../constants/price-unit";
 import noImage from "/images/plugs/noImage.png?url";
 import { useDispatch } from "react-redux";
-import { addProduct, removeProduct } from "../../store/cartSlice";
+import { removeProduct } from "../../store/cartSlice";
 
-interface ProductCardProps {
+interface CartCardProps {
   product: Product;
-  inCart: boolean;
 }
 
-export const ProductCard: FC<ProductCardProps> = ({ product, inCart }) => {
+export const CartCard: FC<CartCardProps> = ({ product }) => {
   const handleError = (event: Event | undefined) => {
     const image = event?.target as HTMLImageElement;
     image.src = noImage;
@@ -29,25 +28,17 @@ export const ProductCard: FC<ProductCardProps> = ({ product, inCart }) => {
             onError={() => handleError(event)}
           />
         </div>
+
+        <div className={styles.title}>{product.title}</div>
         <div className={styles.price}>
           {product.price} {PRICE_UNIT}
         </div>
-        <div className={styles.title}>{product.title}</div>
-        {inCart ? (
-          <Button
-            className={styles.buttonRemoveFromCart}
-            onClick={() => dispatch(removeProduct({ id: product.id }))}
-          >
-            Удалить из корзины
-          </Button>
-        ) : (
-          <Button
-            className={styles.buttonAddInCart}
-            onClick={() => dispatch(addProduct({ ...product }))}
-          >
-            Добавить в корзину
-          </Button>
-        )}
+        <Button
+          className={styles.buttonRemoveInCart}
+          onClick={() => dispatch(removeProduct({ id: product.id }))}
+        >
+          &#10005;
+        </Button>
       </div>
     </>
   );

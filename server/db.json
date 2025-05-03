@@ -376,245 +376,245 @@
   ],
   "clothes": [
     {
-      "id": 1,
+      "id": 101,
       "title": "Классический пиджак",
       "description": "Элегантный пиджак черного цвета для деловых встреч.",
       "price": 3499,
       "imageUrl": "https://images.pexels.com/photos/934061/pexels-photo-934061.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 2,
+      "id": 102,
       "title": "Джинсы скинни",
       "description": "Узкие джинсы с высокой талией, идеально подходят для повседневной носки.",
       "price": 1599,
       "imageUrl": "https://images.pexels.com/photos/1549947/pexels-photo-1549947.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 3,
+      "id": 103,
       "title": "Платье макси",
       "description": "Легкое летнее платье в пол с цветочным принтом.",
       "price": 2499,
       "imageUrl": "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 4,
+      "id": 104,
       "title": "Спортивные штаны",
       "description": "Удобные спортивные штаны из мягкого материала.",
       "price": 1299,
       "imageUrl": "https://images.pexels.com/photos/4286857/pexels-photo-4286857.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 5,
+      "id": 105,
       "title": "Футболка oversize",
       "description": "Просторная футболка белого цвета с круглым вырезом.",
       "price": 899,
       "imageUrl": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 6,
+      "id": 106,
       "title": "Куртка бомбер",
       "description": "Модная куртка бомбер с эластичными манжетами.",
       "price": 2999,
       "imageUrl": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 7,
+      "id": 107,
       "title": "Юбка миди",
       "description": "Юбка средней длины с завышенной талией.",
       "price": 1499,
       "imageUrl": "https://images.pexels.com/photos/2067137/pexels-photo-2067137.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 8,
+      "id": 108,
       "title": "Пальто в клетку",
       "description": "Теплое пальто в классическую клетку для зимы.",
       "price": 4999,
       "imageUrl": "https://images.pexels.com/photos/2295010/pexels-photo-2295010.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 9,
+      "id": 109,
       "title": "Леггинсы",
       "description": "Черные леггинсы из эластичного материала.",
       "price": 999,
       "imageUrl": "https://images.pexels.com/photos/1617096/pexels-photo-1617096.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 10,
+      "id": 1010,
       "title": "Рубашка в полоску",
       "description": "Классическая рубашка сине-белая полоска.",
       "price": 1799,
       "imageUrl": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 11,
+      "id": 1011,
       "title": "Кроссовки",
       "description": "Белые кроссовки для спорта и прогулок.",
       "price": 2499,
       "imageUrl": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 12,
+      "id": 1012,
       "title": "Шапка-бини",
       "description": "Теплая шапка-бини серого цвета.",
       "price": 699,
       "imageUrl": "https://images.pexels.com/photos/518410/pexels-photo-518410.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 13,
+      "id": 1013,
       "title": "Платье-рубашка",
       "description": "Платье свободного кроя в стиле рубашки.",
       "price": 2199,
       "imageUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 14,
+      "id": 1014,
       "title": "Кожаная куртка",
       "description": "Стильная кожаная куртка черного цвета.",
       "price": 5999,
       "imageUrl": "https://images.pexels.com/photos/3770390/pexels-photo-3770390.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 15,
+      "id": 1015,
       "title": "Свитшот",
       "description": "Уютный свитшот с капюшоном и принтом.",
       "price": 1399,
       "imageUrl": "https://images.pexels.com/photos/3756874/pexels-photo-3756874.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 16,
+      "id": 1016,
       "title": "Шорты джинсовые",
       "description": "Короткие джинсовые шорты с потертостями.",
       "price": 1199,
       "imageUrl": "https://images.pexels.com/photos/1617096/pexels-photo-1617096.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 17,
+      "id": 1017,
       "title": "Платье-свитер",
       "description": "Теплое платье из трикотажа с длинным рукавом.",
       "price": 2399,
       "imageUrl": "https://images.pexels.com/photos/2910196/pexels-photo-2910196.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 18,
+      "id": 1018,
       "title": "Брюки чинос",
       "description": "Классические брюки чинос бежевого цвета.",
       "price": 1999,
       "imageUrl": "https://images.pexels.com/photos/1694345/pexels-photo-1694345.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 19,
+      "id": 1019,
       "title": "Платье коктейльное",
       "description": "Короткое платье с блестящим покрытием.",
       "price": 2999,
       "imageUrl": "https://images.pexels.com/photos/1022112/pexels-photo-1022112.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 20,
+      "id": 1020,
       "title": "Балетки",
       "description": "Удобные балетки черного цвета.",
       "price": 1499,
       "imageUrl": "https://images.pexels.com/photos/1077507/pexels-photo-1077507.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 21,
+      "id": 1021,
       "title": "Кардиган",
       "description": "Теплый кардиган с длинным рукавом.",
       "price": 1899,
       "imageUrl": "https://images.pexels.com/photos/2091511/pexels-photo-2091511.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 22,
+      "id": 1022,
       "title": "Кепка",
       "description": "Кепка с логотипом и регулируемым размером.",
       "price": 799,
       "imageUrl": "https://images.pexels.com/photos/1040944/pexels-photo-1040944.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 23,
+      "id": 1023,
       "title": "Пуховик",
       "description": "Теплый пуховик с капюшоном.",
       "price": 6999,
       "imageUrl": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 24,
+      "id": 1024,
       "title": "Туфли лоферы",
       "description": "Классические туфли-лоферы коричневого цвета.",
       "price": 2599,
       "imageUrl": "https://images.pexels.com/photos/1077507/pexels-photo-1077507.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 25,
+      "id": 1025,
       "title": "Легкая куртка",
       "description": "Ветровка с капюшоном для весенней погоды.",
       "price": 2299,
       "imageUrl": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 26,
+      "id": 1026,
       "title": "Платье футляр",
       "description": "Классическое платье-футляр черного цвета.",
       "price": 2799,
       "imageUrl": "https://images.pexels.com/photos/1022112/pexels-photo-1022112.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 27,
+      "id": 1027,
       "title": "Брюки широкие",
       "description": "Широкие брюки с высокой талией.",
       "price": 2199,
       "imageUrl": "https://images.pexels.com/photos/1694345/pexels-photo-1694345.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 28,
+      "id": 1028,
       "title": "Свитер оверсайз",
       "description": "Просторный свитер с объемным узором.",
       "price": 1999,
       "imageUrl": "https://images.pexels.com/photos/3770390/pexels-photo-3770390.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 29,
+      "id": 1029,
       "title": "Платье с запахом",
       "description": "Элегантное платье с запахом и поясом.",
       "price": 2499,
       "imageUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 30,
+      "id": 1030,
       "title": "Кожаные брюки",
       "description": "Облегающие кожаные брюки черного цвета.",
       "price": 4999,
       "imageUrl": "https://images.pexels.com/photos/3770390/pexels-photo-3770390.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 31,
+      "id": 1031,
       "title": "Толстовка",
       "description": "Теплая толстовка с капюшоном и карманом.",
       "price": 1499,
       "imageUrl": "https://images.pexels.com/photos/3756874/pexels-photo-3756874.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 32,
+      "id": 1032,
       "title": "Купальник",
       "description": "Раздельный купальник с принтом.",
       "price": 1999,
       "imageUrl": "https://images.pexels.com/photos/1059106/pexels-photo-1059106.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 33,
+      "id": 1033,
       "title": "Платье солнце",
       "description": "Легкое платье-солнце с коротким рукавом.",
       "price": 1899,
       "imageUrl": "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 34,
+      "id": 1034,
       "title": "Джинсовая рубашка",
       "description": "Рубашка из денима с длинным рукавом.",
       "price": 1699,
       "imageUrl": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 35,
+      "id": 1035,
       "title": "Ботинки челси",
       "description": "Классические ботинки челси черного цвета.",
       "price": 3499,
@@ -623,161 +623,161 @@
   ],
   "electronics": [
     {
-      "id": 1,
+      "id": 201,
       "title": "Смартфон Samsung Galaxy S23",
       "description": "Флагманский смартфон с AMOLED-экраном и мощным процессором.",
       "price": 79990,
       "imageUrl": "https://images.pexels.com/photos/1057044/pexels-photo-1057044.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 2,
+      "id": 202,
       "title": "Ноутбук MacBook Air M2",
       "description": "Легкий ноутбук с чипом Apple M2 для работы и учебы.",
       "price": 129990,
       "imageUrl": "https://images.pexels.com/photos/2047454/pexels-photo-2047454.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 3,
+      "id": 203,
       "title": "Умные часы Apple Watch Series 8",
       "description": "Стильные умные часы с функцией мониторинга здоровья.",
       "price": 49990,
       "imageUrl": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 4,
+      "id": 204,
       "title": "Беспроводные наушники Sony WH-1000XM5",
       "description": "Наушники с шумоподавлением и высоким качеством звука.",
       "price": 29990,
       "imageUrl": "https://images.pexels.com/photos/6730664/pexels-photo-6730664.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 5,
+      "id": 205,
       "title": "Планшет iPad Air 5",
       "description": "Планшет с дисплеем Retina и поддержкой Apple Pencil.",
       "price": 89990,
       "imageUrl": "https://images.pexels.com/photos/1038912/pexels-photo-1038912.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 6,
+      "id": 206,
       "title": "Игровая консоль PlayStation 5",
       "description": "Мощная игровая консоль нового поколения.",
       "price": 99990,
       "imageUrl": "https://images.pexels.com/photos/1044948/pexels-photo-1044948.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 7,
+      "id": 207,
       "title": "Камера Sony Alpha a7 III",
       "description": "Профессиональная беззеркальная камера для фотографии.",
       "price": 149990,
       "imageUrl": "https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 8,
+      "id": 208,
       "title": "Принтер Canon PIXMA G3410",
       "description": "Струйный принтер с функцией сканирования и копирования.",
       "price": 12990,
       "imageUrl": "https://images.pexels.com/photos/258385/pexels-photo-258385.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 9,
+      "id": 209,
       "title": "Портативная колонка JBL Flip 6",
       "description": "Компактная колонка с мощным звуком и водостойкостью.",
       "price": 7990,
       "imageUrl": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 10,
+      "id": 2010,
       "title": "Роутер TP-Link Archer AX50",
       "description": "Wi-Fi 6 роутер для быстрого интернета в доме.",
       "price": 9990,
       "imageUrl": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 11,
+      "id": 2011,
       "title": "Электронная книга Kindle Paperwhite",
       "description": "Читалка с высоким разрешением экрана и длительным временем работы.",
       "price": 14990,
       "imageUrl": "https://images.pexels.com/photos/1038913/pexels-photo-1038913.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 12,
+      "id": 2012,
       "title": "Геймерская мышь Logitech G502",
       "description": "Мышь с программируемыми кнопками и RGB-подсветкой.",
       "price": 5990,
       "imageUrl": "https://images.pexels.com/photos/1057045/pexels-photo-1057045.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 13,
+      "id": 2013,
       "title": "Монитор LG UltraGear 27GL850",
       "description": "Игровой монитор с частотой обновления 144 Гц.",
       "price": 59990,
       "imageUrl": "https://images.pexels.com/photos/279215/pexels-photo-279215.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 14,
+      "id": 2014,
       "title": "Клавиатура Razer BlackWidow V3",
       "description": "Механическая клавиатура с тактильными переключателями.",
       "price": 12990,
       "imageUrl": "https://images.pexels.com/photos/1057046/pexels-photo-1057046.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 15,
+      "id": 2015,
       "title": "Power Bank Xiaomi 20000mAh",
       "description": "Внешний аккумулятор для зарядки гаджетов.",
       "price": 2990,
       "imageUrl": "https://images.pexels.com/photos/1148821/pexels-photo-1148821.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 16,
+      "id": 2016,
       "title": "Телевизор Samsung QLED Q80A",
       "description": "Телевизор с технологией Quantum Dot и 4K-разрешением.",
       "price": 129990,
       "imageUrl": "https://images.pexels.com/photos/2047455/pexels-photo-2047455.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 17,
+      "id": 2017,
       "title": "Дрон DJI Mini 3 Pro",
       "description": "Компактный дрон с камерой 4K для съемки.",
       "price": 99990,
       "imageUrl": "https://images.pexels.com/photos/1044949/pexels-photo-1044949.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 18,
+      "id": 2018,
       "title": "Проектор BenQ MH535FHD",
       "description": "Портативный проектор для домашнего кинотеатра.",
       "price": 49990,
       "imageUrl": "https://images.pexels.com/photos/279216/pexels-photo-279216.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 19,
+      "id": 2019,
       "title": "Экшн-камера GoPro HERO10",
       "description": "Камера для экстремальных видов спорта и активного отдыха.",
       "price": 59990,
       "imageUrl": "https://images.pexels.com/photos/1044950/pexels-photo-1044950.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 20,
+      "id": 2020,
       "title": "Умная лампа Philips Hue",
       "description": "Лампа с возможностью управления через приложение.",
       "price": 4990,
       "imageUrl": "https://images.pexels.com/photos/1057047/pexels-photo-1057047.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 21,
+      "id": 2021,
       "title": "Смарт-часы Garmin Fenix 7",
       "description": "Умные часы для спортсменов с GPS и пульсометром.",
       "price": 89990,
       "imageUrl": "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 22,
+      "id": 2022,
       "title": "Наушники AirPods Pro",
       "description": "Беспроводные наушники с активным шумоподавлением.",
       "price": 24990,
       "imageUrl": "https://images.pexels.com/photos/6730665/pexels-photo-6730665.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "id": 23,
+      "id": 2023,
       "title": "Игровое кресло Secretlab Omega",
       "description": "Комфортное кресло для длительных игровых сессий.",
       "price": 59990,

@@ -8,12 +8,19 @@
   height: 100%;
   width: 30rem;
   min-width: 320px;
-  position: absolute;
   border-radius: 1rem 0 0 1rem;
   padding: 1rem;
-  // top: 0;
-  // right: -200px;
+  position: absolute;
+  top: 0;
+  right: 0px;
   // transition: right 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .title {
