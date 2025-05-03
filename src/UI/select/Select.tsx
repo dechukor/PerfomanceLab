@@ -3,8 +3,8 @@ import styles from "./Select.module.scss";
 
 type SelectProps = React.HTMLAttributes<HTMLSelectElement> & {
   options?: { value: string; title: string }[];
-  ref?: RefObject<null>;
-  value: string;
+  ref?: RefObject<HTMLSelectElement | null>;
+  value?: string;
 };
 
 export const Select: FC<SelectProps> = ({ options, ref, value, ...props }) => {

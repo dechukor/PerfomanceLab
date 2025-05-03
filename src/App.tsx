@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Header, Main } from "./pages";
+import { Header, Main } from "./layout";
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 import { FC, useState } from "react";
 import styles from "./Header.module.scss";
 import { Button, Modal, Select } from "../../UI";
+import { Cart } from "../../modules";
 import { categories } from "../../constants/categories";
 import { Link, useNavigate } from "react-router-dom";
-import { Cart } from "../../modules";
 import logo from "/images/logo/logo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store/store";

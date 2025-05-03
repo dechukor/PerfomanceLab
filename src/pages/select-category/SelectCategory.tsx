@@ -1,7 +1,6 @@
 import { FC, useEffect } from "react";
 import styles from "./SelectCategory.module.scss";
 import { CategoryCard } from "../../components";
-// import { categories } from "../../constants/categories";
 import { Link } from "react-router-dom";
 import { categories } from "../../constants/categories";
 import { useDispatch } from "react-redux";

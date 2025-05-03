@@ -2,8 +2,8 @@ import { FC } from "react";
 import styles from "./Main.module.scss";
 
 import { Routes, Route } from "react-router-dom";
-import { SelectCategory } from "../categories";
-import { CategoryPage } from "../category-page/CategoryPage";
+import { SelectCategory } from "../../pages";
+import { CategoryPage } from "../../pages/category-page/CategoryPage";
 import { categories } from "../../constants/categories";
 import { Category } from "../../types/types";
 

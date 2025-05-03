@@ -2,13 +2,20 @@ import { FC, useRef } from "react";
 import styles from "./Sort.module.scss";
 import { Button, Select } from "../../UI";
 
+type Order = "asc" | "desc";
 interface SortProps {
-  setSort: (sort: string, order: "asc" | "desc" | "") => void;
+  setSort: (sort: string, order: Order) => void;
 }
 
 export const Sort: FC<SortProps> = ({ setSort }) => {
-  const sortRef = useRef(null);
-  const orderRef = useRef(null);
+  const sortRef = useRef<HTMLSelectElement>(null);
+  const orderRef = useRef<HTMLSelectElement>(null);
+
+  const handleClickApply = () => {
+    if (sortRef.current && orderRef.current) {
+      setSort(sortRef.current.value, orderRef.current.value as Order);
+    }
+  };
 
   return (
     <div className={styles.sortContainer}>
@@ -28,10 +35,7 @@ export const Sort: FC<SortProps> = ({ setSort }) => {
         ]}
       />
 
-      <Button
-        className={styles.buttonApply}
-        onClick={() => setSort(sortRef.current.value, orderRef.current.value)}
-      >
+      <Button className={styles.buttonApply} onClick={handleClickApply}>
         Применить
       </Button>
     </div>
