@@ -13,20 +13,16 @@ export const Main: FC = () => {
       <main className={styles.mainContainer}>
         <Routes>
           <Route path="/" element={<SelectCategory />} />
-          {/* <Route path="/foods" element={<CategoryPage category="foods" />} />
-          <Route
-            path="/clothes"
-            element={<CategoryPage category="clothes" />}
-          />
-          <Route
-            path="/electronics"
-            element={<CategoryPage category="electronics" />}
-          /> */}
           {categories.map((category: Category) => {
             return (
               <Route
                 path={`/${category.type}`}
-                element={<CategoryPage category={category.type} />}
+                element={
+                  <CategoryPage
+                    category={category.type}
+                    title={category.title}
+                  />
+                }
               />
             );
           })}

@@ -4,46 +4,65 @@ import { Button, Modal, Select } from "../../UI";
 import { categories } from "../../constants/categories";
 import { Link, useNavigate } from "react-router-dom";
 import { Cart } from "../../modules";
+import logo from "/images/logo/logo.png";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../store/store";
+import { selectCategory } from "../../store/selectedCategorySlice";
+import { CategoryType } from "../../types/types";
 
 export const Header: FC = () => {
   const navigate = useNavigate();
-  const [modalCart, setModalCart] = useState(false);
+  const [openCart, setOpenCart] = useState(false);
+  const currentCategory = useSelector(
+    (state: RootState) => state.selectedCategory.value
+  );
+  const dispatch = useDispatch();
 
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleChangeCategory = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
     const path = `/${event.target.value}`;
     navigate(path);
+    dispatch(selectCategory(event.target.value as CategoryType));
   };
 
-  const handleCloseModalCart = () => {
-    setModalCart(false);
+  const handleCloseCart = () => {
+    setOpenCart(false);
   };
 
   return (
     <>
       <header className={styles.headerContainer}>
-        <Link to="/">
-          <h1 className={styles.title}>Просто магазин</h1>
-        </Link>
-
-        <Select defaultValue="" onChange={handleChange}>
-          <option disabled value="">
-            Выбор категории
-          </option>
-          {categories.map((category) => {
-            return (
-              <option key={category.type} value={category.type as string}>
-                {category.title}
-              </option>
-            );
-          })}
-        </Select>
-
-        <div className={styles.buttonsContainer}>
-          <Button onClick={() => setModalCart(true)}>Корзина</Button>
+        <div className={styles.logoContainer}>
+          <Link to="/">
+            <img className={styles.logo} src={logo} alt="Simple Shop" />
+          </Link>
         </div>
-        {modalCart && (
-          <Modal closeModal={handleCloseModalCart}>
-            <Cart />
+        <div className={styles.buttonsContainer}>
+          <Select
+            value={currentCategory ? currentCategory : ""}
+            onChange={handleChangeCategory}
+          >
+            <option disabled value="">
+              Выбор категории
+            </option>
+            {categories.map((category) => {
+              return (
+                <option
+                  key={category.type}
+                  value={category.type as string}
+                  // selected={currentCategory === category.type}
+                >
+                  {category.title}
+                </option>
+              );
+            })}
+          </Select>
+          <Button onClick={() => setOpenCart(true)}>Корзина</Button>
+        </div>
+        {openCart && (
+          <Modal closeModal={handleCloseCart}>
+            <Cart closeCart={handleCloseCart} />
           </Modal>
         )}
       </header>

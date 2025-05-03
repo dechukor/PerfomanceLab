@@ -4,19 +4,21 @@ $color-white: white;
 $color-orange: #f13c20;
 $color-blue: #4056a1;
 $color-light-gray: #c5cbe3;
-$color-light-brown: #464438;
+$color-brown: #464438;
 $color-gold: #d79922;
+$color-light-brown: #efe2ba;
 
 $base-bg-color: $color-light-gray;
 $header-color: $color-blue;
 $button-color: $color-white;
 $button-hover-color: $color-light-gray;
-$base-text-color: $color-light-brown;
+$base-text-color: $color-brown;
 $header-text-color: $color-gold;
 
 //-----fonts-----
 
 $base-font-size: 14px;
+$small-font-size: 12px;
 $header-font-size: 2rem;
 
 //-----sizes-----

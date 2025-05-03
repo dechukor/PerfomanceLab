@@ -8,6 +8,7 @@ import { Error, Loading, Select } from "../../UI";
 
 interface CategoryPageProps {
   category: CategoryType;
+  title: string;
 }
 
 interface QueryParametrs {
@@ -17,7 +18,7 @@ interface QueryParametrs {
   order: "asc" | "desc" | "";
 }
 
-export const CategoryPage: FC<CategoryPageProps> = ({ category }) => {
+export const CategoryPage: FC<CategoryPageProps> = ({ category, title }) => {
   const initialQueryParametrs: QueryParametrs = {
     page: 1,
     perPage: 5,
@@ -66,7 +67,10 @@ export const CategoryPage: FC<CategoryPageProps> = ({ category }) => {
   return (
     <>
       <div className={styles.categoryPageContainer}>
-        <Sort setSort={handleSetSort} />
+        <div className={styles.headerPage}>
+          <div className={styles.titlePage}>{title}</div>
+          <Sort setSort={handleSetSort} />
+        </div>
         <ProductCardList products={data.data} />
         <Paginator
           quantityPages={data.pages}

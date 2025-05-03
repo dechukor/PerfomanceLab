@@ -20,10 +20,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media (max-width: 768px) {
+    font-size: styles.$small-font-size;
+  }
 }
 
 body {
   margin: 0;
   min-width: 320px;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }

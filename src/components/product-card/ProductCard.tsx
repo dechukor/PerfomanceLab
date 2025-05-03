@@ -34,14 +34,19 @@ export const ProductCard: FC<ProductCardProps> = ({ product, inCart }) => {
         </div>
         <div className={styles.title}>{product.title}</div>
         {inCart ? (
-          <Button
-            className={styles.buttonRemoveFromCart}
-            onClick={() => dispatch(removeProduct({ id: product.id }))}
-          >
-            Удалить из корзины
-          </Button>
+          <div className={styles.removeBox}>
+            <div className={styles.statusInCart}>В корзине</div>
+            <Button
+              title="Удалить из корзины"
+              className={styles.buttonRemoveFromCart}
+              onClick={() => dispatch(removeProduct({ id: product.id }))}
+            >
+              &#128465;
+            </Button>
+          </div>
         ) : (
           <Button
+            title="Добавить в корзину"
             className={styles.buttonAddInCart}
             onClick={() => dispatch(addProduct({ ...product }))}
           >

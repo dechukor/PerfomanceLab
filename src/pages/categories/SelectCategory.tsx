@@ -1,11 +1,17 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import styles from "./SelectCategory.module.scss";
 import { CategoryCard } from "../../components";
 // import { categories } from "../../constants/categories";
 import { Link } from "react-router-dom";
 import { categories } from "../../constants/categories";
+import { useDispatch } from "react-redux";
+import { clearCategory } from "../../store/selectedCategorySlice";
 
 export const SelectCategory: FC = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(clearCategory());
+  }, []);
   return (
     <>
       <div className={styles.selectCategoryContainer}>
@@ -16,6 +22,7 @@ export const SelectCategory: FC = () => {
                 imagePath={category.imagePath}
                 imageAlt={category.title}
                 title={category.title}
+                type={category.type}
               ></CategoryCard>
             </Link>
           );

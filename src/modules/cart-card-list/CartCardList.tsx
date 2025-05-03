@@ -11,9 +11,13 @@ export const CartCardList: FC<CartCardListProps> = ({ products }) => {
   return (
     <>
       <div className={styles.listContainer}>
-        {products.map((product) => (
-          <CartCard key={product.id} product={product} />
-        ))}
+        {products.length ? (
+          products.map((product) => (
+            <CartCard key={product.id} product={product} />
+          ))
+        ) : (
+          <div className={styles.emptyCartText}>В корзине пока нет товаров</div>
+        )}
       </div>
     </>
   );

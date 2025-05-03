@@ -34,10 +34,11 @@ export const CartCard: FC<CartCardProps> = ({ product }) => {
           {product.price} {PRICE_UNIT}
         </div>
         <Button
+          title="Удалить из корзины"
           className={styles.buttonRemoveInCart}
           onClick={() => dispatch(removeProduct({ id: product.id }))}
         >
-          &#10005;
+          &#128465;
         </Button>
       </div>
     </>

@@ -51,8 +51,17 @@
   height: 10%;
 }
 
-.buttonRemoveFromCart {
+.statusInCart {
+  @include styles.flex-centered;
+  background-color: styles.$color-gold;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+}
+
+.removeBox {
   width: 100%;
   height: 10%;
-  background-color: styles.$color-gold;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
