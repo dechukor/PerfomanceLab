@@ -1,0 +1,9 @@
+@use "../../styles/main.scss" as styles;
+
+.selectCategoryContainer {
+  @include styles.flex-centered;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  // background-color: burlywood;
+}

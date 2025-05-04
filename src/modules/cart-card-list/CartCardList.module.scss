@@ -1,0 +1,17 @@
+@use "../../styles/main.scss" as styles;
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-height: 100%;
+  gap: 0.5rem;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.emptyCartText {
+  color: styles.$color-gold;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

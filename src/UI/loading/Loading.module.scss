@@ -1,0 +1,7 @@
+@use "../../styles/main.scss" as styles;
+
+.loadingContainer {
+  @include styles.flex-centered;
+  width: 100%;
+  height: 100%;
+}

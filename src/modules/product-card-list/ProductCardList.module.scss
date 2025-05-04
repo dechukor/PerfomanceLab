@@ -1,0 +1,12 @@
+@use "../../styles/main.scss" as styles;
+
+.listContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, styles.$width-product-card);
+
+  max-width: 100%;
+  grid-gap: 3rem 1.5rem;
+  border-radius: 0.5rem;
+  // border: 1px solid black;
+  padding: 1rem;
+}

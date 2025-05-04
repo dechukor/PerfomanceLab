@@ -1,0 +1,15 @@
+@use "../../styles/main.scss" as styles;
+
+.errorContainer {
+  @include styles.flex-centered;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.errorTitle {
+  font-size: 1.5rem;
+}
+.errorText {
+  font-size: 0.8rem;
+}
